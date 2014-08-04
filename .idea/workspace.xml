@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4435901-970f-4ced-845f-009d38b31806" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/conductorDAO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/util/funciones.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf/local.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf/remoto.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws/ws_cond_login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws/ws_cond_cerrarSesion.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws/ws_cond_obtenerCalificacion.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws/ws_cond_verificarSesion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/conductorDAO.php" afterPath="$PROJECT_DIR$/dao/conductorDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws/ws_cond_login.php" afterPath="$PROJECT_DIR$/ws/ws_cond_login.php" />
     </list>
     <ignored path="svico.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,38 +30,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="ws_cond_login.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ws/ws_cond_login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="41" selection-start="48" selection-end="48" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="885">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ws_cond_obtenerCalificacion.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ws/ws_cond_obtenerCalificacion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="41" selection-start="48" selection-end="48" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="570">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ws_cond_verificarSesion.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ws/ws_cond_verificarSesion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="54" selection-start="437" selection-end="462" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="555">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ws_cond_cerrarSesion.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ws/ws_cond_cerrarSesion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="24" selection-start="906" selection-end="906" vertical-scroll-proportion="0.58419245" vertical-offset="0" max-vertical-offset="873">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="conductorDAO.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dao/conductorDAO.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="45" selection-start="1575" selection-end="1575" vertical-scroll-proportion="-29.5" vertical-offset="132" max-vertical-offset="1050">
+            <state line="134" column="9" selection-start="3795" selection-end="3795" vertical-scroll-proportion="-30.125" vertical-offset="1287" max-vertical-offset="2160">
               <folding>
-                <marker date="1406934753000" expanded="true" signature="79:126" placeholder="SELECT * FRO..tb_conductor..." />
-                <marker date="1406934753000" expanded="true" signature="79:126" placeholder="SELECT * FRO..tb_conductor..." />
-                <marker date="1406934753000" expanded="true" signature="197:268" placeholder="SELECT * FRO..tb_conductor..." />
-                <marker date="1406934753000" expanded="true" signature="642:705" placeholder="SELECT * FRO..mv_sesioncond..." />
-                <marker date="1406934753000" expanded="true" signature="991:1052" placeholder="DELETE FROM ..." />
-                <marker date="1406934753000" expanded="true" signature="997:1052" placeholder="SELECT * FRO..mv_sesioncond..." />
-                <marker date="1406934753000" expanded="true" signature="1235:1349" placeholder="INSERT INTO ..." />
-                <marker date="1406934753000" expanded="true" signature="1246:1306" placeholder="SELECT * FRO..mv_sesioncond..." />
+                <marker date="1407172833000" expanded="true" signature="250:332" placeholder="SELECT * FRO..tb_conductor..." />
+                <marker date="1407172833000" expanded="true" signature="714:785" placeholder="SELECT * FRO..tb_conductor..." />
+                <marker date="1407172833000" expanded="true" signature="1172:1235" placeholder="SELECT * FRO..mv_sesioncond..." />
+                <marker date="1407172833000" expanded="true" signature="1521:1582" placeholder="DELETE FROM ..." />
+                <marker date="1407172833000" expanded="true" signature="1765:1879" placeholder="INSERT INTO ..." />
+                <marker date="1407172833000" expanded="true" signature="2336:2537" placeholder="SELECT * FRO..mv_sesioncond..." />
+                <marker date="1407172833000" expanded="true" signature="3175:3374" placeholder="DELETE FROM ..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ws_cond_login.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ws/ws_cond_login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="0" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.84192437" vertical-offset="0" max-vertical-offset="873">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="funciones.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/funciones.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="1" selection-start="217" selection-end="217" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -81,10 +98,13 @@
       <list>
         <option value="$PROJECT_DIR$/conf/local.php" />
         <option value="$PROJECT_DIR$/conf/remoto.php" />
-        <option value="$PROJECT_DIR$/db/database.php" />
         <option value="$PROJECT_DIR$/util/funciones.php" />
+        <option value="$PROJECT_DIR$/db/database.php" />
         <option value="$PROJECT_DIR$/dao/conductorDAO.php" />
         <option value="$PROJECT_DIR$/ws/ws_cond_login.php" />
+        <option value="$PROJECT_DIR$/ws/ws_cond_obtenerCalificacion.php" />
+        <option value="$PROJECT_DIR$/ws/ws_cond_verificarSesion.php" />
+        <option value="$PROJECT_DIR$/ws/ws_cond_cerrarSesion.php" />
       </list>
     </option>
   </component>
@@ -120,6 +140,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -162,55 +183,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="svico" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="svico" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="svico" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="svico" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="svico" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="svico" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,6 +199,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -288,53 +267,69 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/conf/remoto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="41" selection-start="183" selection-end="183" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/conf/local.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="27" selection-start="162" selection-end="162" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="2" selection-start="1715" selection-end="1715" vertical-scroll-proportion="0.8969072" vertical-offset="387" max-vertical-offset="1260">
-          <folding />
-        </state>
+        <state line="7" column="27" selection-start="162" selection-end="162" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="195" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/util/funciones.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="217" selection-end="217" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
+        <state line="9" column="1" selection-start="217" selection-end="217" vertical-scroll-proportion="0.15463917" vertical-offset="0" max-vertical-offset="873" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="0.03436426" vertical-offset="0" max-vertical-offset="1260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/remoto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="42" selection-start="184" selection-end="184" vertical-scroll-proportion="0.12027492" vertical-offset="0" max-vertical-offset="873">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws/ws_cond_obtenerCalificacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="41" selection-start="48" selection-end="48" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws/ws_cond_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="41" selection-start="48" selection-end="48" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="885">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dao/conductorDAO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="45" selection-start="1575" selection-end="1575" vertical-scroll-proportion="-29.5" vertical-offset="132" max-vertical-offset="1050">
+        <state line="134" column="9" selection-start="3795" selection-end="3795" vertical-scroll-proportion="-30.125" vertical-offset="1287" max-vertical-offset="2160">
           <folding>
-            <marker date="1406934753000" expanded="true" signature="79:126" placeholder="SELECT * FRO..tb_conductor..." />
-            <marker date="1406934753000" expanded="true" signature="79:126" placeholder="SELECT * FRO..tb_conductor..." />
-            <marker date="1406934753000" expanded="true" signature="197:268" placeholder="SELECT * FRO..tb_conductor..." />
-            <marker date="1406934753000" expanded="true" signature="642:705" placeholder="SELECT * FRO..mv_sesioncond..." />
-            <marker date="1406934753000" expanded="true" signature="991:1052" placeholder="DELETE FROM ..." />
-            <marker date="1406934753000" expanded="true" signature="997:1052" placeholder="SELECT * FRO..mv_sesioncond..." />
-            <marker date="1406934753000" expanded="true" signature="1235:1349" placeholder="INSERT INTO ..." />
-            <marker date="1406934753000" expanded="true" signature="1246:1306" placeholder="SELECT * FRO..mv_sesioncond..." />
+            <marker date="1407172833000" expanded="true" signature="250:332" placeholder="SELECT * FRO..tb_conductor..." />
+            <marker date="1407172833000" expanded="true" signature="714:785" placeholder="SELECT * FRO..tb_conductor..." />
+            <marker date="1407172833000" expanded="true" signature="1172:1235" placeholder="SELECT * FRO..mv_sesioncond..." />
+            <marker date="1407172833000" expanded="true" signature="1521:1582" placeholder="DELETE FROM ..." />
+            <marker date="1407172833000" expanded="true" signature="1765:1879" placeholder="INSERT INTO ..." />
+            <marker date="1407172833000" expanded="true" signature="2336:2537" placeholder="SELECT * FRO..mv_sesioncond..." />
+            <marker date="1407172833000" expanded="true" signature="3175:3374" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ws/ws_cond_login.php">
+    <entry file="file://$PROJECT_DIR$/ws/ws_cond_verificarSesion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.84192437" vertical-offset="0" max-vertical-offset="873">
+        <state line="14" column="54" selection-start="437" selection-end="462" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws/ws_cond_cerrarSesion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="24" selection-start="906" selection-end="906" vertical-scroll-proportion="0.58419245" vertical-offset="0" max-vertical-offset="873">
           <folding />
         </state>
       </provider>
