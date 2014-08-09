@@ -1,9 +1,0 @@
-# Activar RewriteEngine
-RewriteEngine on
-
-# Reescribir la URL solicitada por el usuario
-#   Entrada:  main/OPC/
-#   Salida: main.php?opc=NUMERO_OPC
-RewriteRule ^opc/(\w+)/?$ main.php?opc=$1
-
-Rewriterule ^salir$ logout.php

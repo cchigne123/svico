@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * autor: Jhonatan Sandoval
+ * fecha: 05 Ago 2014
+ * descripcion: Webserivce para obtener la calificacion del conductor por su id
+ */
+
 header('Content-Type: application/json');
 
 require_once '../dao/conductorDAO.php';
@@ -26,7 +32,7 @@ if ($idConductor !== '' &&
 
 } else {
     $json = array("success" => false,
-        "mensaje" => "El id no debe estar vacio.");
+        "mensaje" => "El id no debe estar vacío.");
 
 }
 

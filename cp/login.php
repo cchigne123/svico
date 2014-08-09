@@ -21,16 +21,16 @@ if (count($usuarioAcceso)>0) {
         $_SESSION['correo'] = $usuarioAcceso[0]['correo'];
 
 
-        header("Location: ../app/opc/1");
+        header("Location: ../cp/main.php?opc=1");
 
     } else {
         $_SESSION['errors'] = 'La contraseña ingresada, es incorrecta.';
-        header("location: ../app/");
+        header("location: ../cp//");
 
     }
 
 } else {
     $_SESSION['errors'] = 'Tal usuario no existe.';
-    header("location: ../app/");
+    header("location: ../cp//");
 
 }

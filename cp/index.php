@@ -20,13 +20,13 @@
 
                 <img src="../img/logo.png" width="240" height="80" class="imgLogin" />
 
-                <form class="form-signin" autocomplete="off" action="../app/login.php" method="post">
+                <form class="form-signin text-center" autocomplete="off" action="login.php" method="post">
                     <input type="text" id="usuario" name="usuario" class="form-control usuario" placeholder="Usuario"
                            required autofocus>
                     <input type="password" id="clave" name="clave" class="form-control clave" placeholder="Clave"
                            required>
                     <br>
-                    <button class="btn btn-lg btn-success btn-block" type="submit">
+                    <button class="btn btn-success btn-block" type="submit">
                         Acceder
                     </button>
 

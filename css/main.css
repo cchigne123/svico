@@ -1,0 +1,150 @@
+@font-face{
+    font-family: Myriad;
+    src: url('../fonts/MyriadWebPro.ttf');	
+}
+
+@font-face { 
+    font-family: Yanone; 
+    src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+    src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+}
+
+@font-face { 
+    font-family: NewsCycle; 
+    src: url('../fonts/NewsCycle-Regular.eot'); 
+    src: local("NewsCycle-Regular"), url('../fonts/NewsCycle-Regular.ttf'); 
+}
+
+
+body {
+    background-color: #999999;
+    font-size: 12.5px;
+    font-family: Myriad;
+}
+
+#mainContainer {
+    box-shadow: 0 0 40px 5px #888;
+    min-height: 500px;
+    height: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+    background: #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+header {
+    height: 95px;
+    border-bottom: 2px solid;
+    padding-top: 20px;
+    color: #0B3285;
+}
+
+.header-titulo {
+    font-size: 3em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.opcHeader {
+    font-family: Tahoma;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 80px;
+}
+
+.opcHeader a {
+    color: #F29400;
+}
+
+.opcHeader a:hover {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 12px;
+    font-family: Tahoma;
+}
+
+.footer-important {
+    color: #0B3183 ;
+    font-weight:bold;
+}
+
+/**
+    FORMATEANDO BOOTSTRAP
+**/
+
+.container {
+    width: 80%;
+}
+
+.navbar-default {
+    background: #485a7f;
+    background: -moz-radial-gradient(center, ellipse cover,  #485a7f 34%, #0b3183 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(34%,#485a7f), color-stop(100%,#0b3183));
+    background: -webkit-radial-gradient(center, ellipse cover,  #485a7f 34%,#0b3183 100%);
+    background: -o-radial-gradient(center, ellipse cover,  #485a7f 34%,#0b3183 100%);
+    background: -ms-radial-gradient(center, ellipse cover,  #485a7f 34%,#0b3183 100%);
+    background: radial-gradient(ellipse at center,  #485a7f 34%,#0b3183 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#485a7f', endColorstr='#0b3183',GradientType=1 );
+    
+    border: none;
+    border-radius: 0px;
+
+}
+
+.navbar-default ul li a{
+    color: #F29400 !important;
+}
+
+/**
+    FORMATEANDO BOOTSTRAP
+**/
+
+.contenido {
+    padding: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 550px;
+    height: auto;
+}
+
+.tituloContenido {
+    text-align: center;
+}
+
+.tituloContenido h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #515151;	
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+
+#tblSorter thead th  {
+    color: #0B3285;
+    font-weight: bold;
+    text-align: center;
+}
+
+#tblSorter thead th:hover {
+    cursor: pointer;
+}
+
+#tblSorter tbody td {
+    text-align: center;
+}

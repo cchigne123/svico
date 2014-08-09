@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * autor: Jhonatan Sandoval
+ * fecha: 05 Ago 2014
+ * descripcion: Webservice para verificar si hay sesion en la BD
+ */
+
 header('Content-Type: application/json');
 
 require_once '../dao/conductorDAO.php';
@@ -15,6 +21,9 @@ if ($idSesion !== '' && $idConductor !== '' && $token !== '' &&
     $existe = $conductorDAO->existeSesion_conductorDAO($idSesion, $idConductor, $token);
 
     if (count($existe)>0) {
+        
+        $conductorDAO->regLoginUltMovTaxi_conductorDAO($idConductor);
+        
         $success = true;
         $mensaje = "Existe una sesion en base de datos";
     } else {
