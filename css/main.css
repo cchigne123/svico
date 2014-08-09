@@ -148,3 +148,7 @@ footer {
 #tblSorter tbody td {
     text-align: center;
 }
+
+.hideDataFromTsorter{
+    display: none;
+}
